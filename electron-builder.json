@@ -1,0 +1,14 @@
+{
+  "appId": "com.hieu123",
+  "win": {
+    "target": "nsis"
+  },
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "appfast-codev",
+      "repo": "hieu123",
+      "token": "${{ secrets.GITHUB_TOKEN }}"
+    }
+  ]
+}
